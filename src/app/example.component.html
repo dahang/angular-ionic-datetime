@@ -1,0 +1,10 @@
+<ion-datetime
+  presentation="month-year"
+  value="2022-08-31T10:18"
+  locale="en-US"
+  show-default-buttons="true"
+  [value]="datepickerValue"
+  (ionChange)="onSelect($event)"
+></ion-datetime>
+
+<span>Date: {{ datepickerValue }}</span>
